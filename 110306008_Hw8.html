@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>110306008_Lab8</title>
+</head>
+<body>
+<form method="post">
+	<table border="1" width="80%">
+		<tr>
+			<td colspan="2">
+				<label>Name:
+					<input type="text" name="name"><br>
+				</label>
+				<label>gender:
+					<form>
+						<input type="radio" name="gender" value="male" checked>Male
+						<input type="radio" name="gender" value="female">Feale
+						<input type="radio" name="gender" value="other">Other
+					</form>
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				county
+				<label>county
+					<select name="county">
+						<option value="Taipei">Taipei</option>
+						<option value="Tainan">Tainan</option>
+						<option value="Taichung">Taichung</option>
+						<option value="Taoyuan">Taoyuan</option>
+					</select>
+				</label>
+			</td>
+			<td>
+				Birthday
+				<label>birthday
+					<input id="birthday" type="date">
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				E-mail:
+					<input id="mail" type="mail">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Hobby
+			</td>
+			<td colspan="2">
+				<input type="checkbox" name="hobby" value="Reading">Reading
+				<input type="checkbox" name="hobby" value="Jogging">Jogging
+				<input type="checkbox" name="hobby" value="Talk show">Talk show
+				<input type="checkbox" name="hobby" value="PC Game">PC Game
+				<input type="checkbox" name="hobby" value="sleep">Sleep
+			</td>
+		</tr>
+        <tr>
+            <td colspan="3">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </td>
+        </tr>
+	</table>
+    </form>
+</body>
+</html>
+
